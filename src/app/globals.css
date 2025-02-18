@@ -62,11 +62,14 @@ body {
   }
 }
 
-@layer base {
-  * {
-    @apply border-border;
+
+
+
+/* @keyframes moveLight {
+  0% {
+    left: -100%;
   }
-  body {
-    @apply bg-background text-foreground;
+  100% {
+    left: 100%;
   }
-}
+} */
