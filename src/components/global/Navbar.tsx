@@ -23,7 +23,7 @@ export function Navbar() {
   };
 
   return (
-    <nav className="w-full h-24 border flex items-center justify-between">
+    <nav className="w-full h-24 flex items-center justify-between">
       <div className="flex items-center gap-24">
         <div>
           <Link href="/">
@@ -35,15 +35,30 @@ export function Navbar() {
             />
           </Link>
         </div>
-        <div className="gap-6 hidden sm:flex px-5 py-1 border rounded-full bg-slate-100 ">
-          <Link href="/about" className="">
+        <div className="gap-6 hidden sm:flex px-5 py-1 dark:text-stone-300">
+          <Link
+            href="/about"
+            className=" font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+          >
             A prepos
           </Link>
-          <Link href="/projects" className="">
+          <Link
+            href="/projects"
+            className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+          >
             Projets
           </Link>
-          <Link href="/stack" className="">
+          <Link
+            href="/stack"
+            className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+          >
             Stack
+          </Link>
+          <Link
+            href="/contact"
+            className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+          >
+            Contact
           </Link>
         </div>
       </div>
@@ -81,6 +96,13 @@ export function Navbar() {
                         className="text-4xl"
                       >
                         Stack
+                      </Link>
+                      <Link
+                        href="/contact"
+                        onClick={handleLinkClick}
+                        className="text-4xl"
+                      >
+                        Contact
                       </Link>
                     </div>
                   </SheetDescription>

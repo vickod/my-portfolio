@@ -1,14 +1,15 @@
 import React from "react";
 import { Button } from "../ui/button";
+import { Download } from "lucide-react";
 
 export default function Hero() {
   return (
-    <div className="w-full  mx-auto mt-20">
-      <div className=" flex flex-col gap-5">
-        <h1 className=" text-4xl sm:text-5xl font-bold ">
-          Développeur web Fullstack
+    <div className="w-full  mx-auto mt-20 ">
+      <div className=" flex flex-col gap-5 dark:text-zinc-300">
+        <h1 className=" text-4xl sm:text-5xl font-bold">
+          Développeur Web Fullstack
         </h1>
-        <div className=" text-lg flex flex-col gap-8 md:w-[600px]">
+        <div className=" text-lg flex flex-col gap-8 md:w-[600px] mt-8">
           <p>
             👋😊 Bienvenue dans mon univers numérique ! Je suis
             <span className="font-bold"> Victor</span>, passionné par les
@@ -30,9 +31,10 @@ export default function Hero() {
                 <Button
                   variant="link"
                   style={{ textDecoration: "none" }}
-                  className="text-red-500 font-bold text-lg p-0 transition-all duration-300 hover:text-red-700 hover:scale-105 hover:rotate-1"
+                  className="group text-red-500 font-bold text-lg p-0 transition-all duration-300 hover:text-red-700 hover:scale-105 hover:rotate-2"
                 >
                   mon CV
+                  <Download className="opacity-0 group-hover:opacity-100 transition-all duration-300" />
                 </Button>
               </span>
             </p>
