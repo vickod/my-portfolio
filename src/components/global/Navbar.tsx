@@ -55,7 +55,7 @@ export function Navbar() {
             Stack
           </Link>
           <Link
-            href="/contact"
+            href="#contact"
             className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
           >
             Contact
@@ -64,52 +64,7 @@ export function Navbar() {
       </div>
       <div>
         <div className="flex gap-4">
-          <div className="sm:hidden">
-            <Sheet open={isOpen} onOpenChange={setIsOpen}>
-              <SheetTrigger asChild>
-                <Button variant="ghost" className="">
-                  <Menu />
-                </Button>
-              </SheetTrigger>
-              <SheetContent side="top" className="h-[70%] ">
-                <SheetHeader className="h-full flex flex-col justify-center items-center ">
-                  <SheetTitle></SheetTitle>
-                  <SheetDescription asChild>
-                    <div className=" flex flex-col justify-center items-center gap-10 font-bold">
-                      <Link
-                        href="/about"
-                        onClick={handleLinkClick}
-                        className="text-4xl"
-                      >
-                        A propos
-                      </Link>
-                      <Link
-                        href="/projects"
-                        onClick={handleLinkClick}
-                        className="text-4xl"
-                      >
-                        Projets
-                      </Link>
-                      <Link
-                        href="/stack"
-                        onClick={handleLinkClick}
-                        className="text-4xl"
-                      >
-                        Stack
-                      </Link>
-                      <Link
-                        href="/contact"
-                        onClick={handleLinkClick}
-                        className="text-4xl"
-                      >
-                        Contact
-                      </Link>
-                    </div>
-                  </SheetDescription>
-                </SheetHeader>
-              </SheetContent>
-            </Sheet>
-          </div>
+          <div className="sm:hidden"></div>
           <ModeToggle />
         </div>
       </div>
