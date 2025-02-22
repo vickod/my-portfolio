@@ -32,9 +32,8 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
           {/* <div className="fixed top-0 -z-10 h-full w-full bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div> */}
-
+          <Navbar />
           <div className="w-11/12 xl:w-10/12 2xl:w-8/12  mx-auto">
-            <Navbar />
             {children}
           </div>
           <Footer />
