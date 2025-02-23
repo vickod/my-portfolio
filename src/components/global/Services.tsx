@@ -4,7 +4,7 @@ import React from "react";
 export default function Services() {
   return (
     <div className="mt-36">
-      <h1 className="text-4xl font-bold mb-4">Mes Services</h1>
+      <h1 className="text-4xl font-bold mb-2">Mes Services</h1>
       <p className="mb-20">
         decouvrez mes services autant que developpeur fullstack
       </p>
