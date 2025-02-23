@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className=" bg-slate-600 dark:bg-zinc-800">
       <div className="w-11/12 xl:w-10/12 2xl:w-8/12 mx-auto">
         <div className="flex flex-col justify-center items-center gap-8">
-          <div className="mt-8 sm:flex sm:gap-10  ">
+          <div className="mt-8 sm:flex sm:gap-10 flex flex-col gap-6 ">
             <Link
               href="about"
               className="flex gap-1 group text-zinc-300 hover:text-white"
