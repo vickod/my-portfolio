@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import ImgProfile2 from "../../../public/pb2.png";
+import { GraduationCap } from "lucide-react";
 
 export default function AboutHomePage() {
   return (
@@ -10,11 +11,13 @@ export default function AboutHomePage() {
 
       <div className="grid grid-cols-2 gap-8">
         <div className="profileImg ">
-          <Image src={ImgProfile2} alt="" className="" />
+          <Image src={ImgProfile2} alt="" className=" rounded-xl" />
         </div>
         <div className="flex flex-col gap-4">
           <div className="grid grid-cols-2 gap-4">
-            <div className="h-[200px] border border-red-500"></div>
+            <div className="h-[200px] border border-neutral-300 rounded-xl flex justify-center items-center">
+              <GraduationCap className=" size-16" />
+            </div>
           </div>
           <div className="flex flex-col gap-4 mt-2">
             <h1 className="text-2xl font-semibold">Description</h1>
