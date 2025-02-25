@@ -10,7 +10,7 @@ export default function Services() {
       </p>
       {/* <div className=" max-w-[400px] h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent mb-8"></div> */}
 
-      <div className="grid grid-cols-2 grid-rows-3  ">
+      <div className="grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3   ">
         <div className=" text-5xl font-bold flex justify-center items-center">
           {"<>"}
         </div>
