@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className=" bg-slate-600 dark:bg-zinc-800 py-4">
+    <footer className=" bg-slate-600 dark:bg-zinc-800 pt-8 pb-6">
       <div className="w-11/12 xl:w-10/12 2xl:w-8/12 mx-auto">
         <div className="flex sm:flex-col  justify-center sm:items-center sm:gap-8 max-sm:justify-between max-sm:px-2 ">
           <div className="flex sm:gap-10 max-sm:gap-6 max-sm:flex-col  ">
@@ -64,7 +64,7 @@ export default function Footer() {
             </Link>
           </div>
         </div>
-        <div className="mt-10 text-center text-sm  text-muted-foreground">
+        <div className="mt-14 text-center text-sm  text-muted-foreground">
           <h1>© Vickod 2025. Tous droits reservés.</h1>
         </div>
       </div>

@@ -14,7 +14,7 @@ export default function Contact() {
       <div className="md:grid md:grid-cols-2 gap-10 flex flex-col items-center  ">
         <div className="flex flex-col h-[400px] lg:h-[500px] gap-8  ">
           <div className="flex flex-col gap-4">
-            <h1 className="text-3xl">Gardons Contacte</h1>
+            <h1 className="text-4xl font-bold">Gardons Contacte</h1>
             <p className="dark:text-zinc-300">
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
               dicta consequatur, exercitationem, ut error architecto autem

@@ -12,8 +12,8 @@ export default function Hero() {
         <div className=" text-lg flex flex-col gap-8 md:w-[600px] mt-8">
           <p>
             👋😊 Bienvenue dans mon univers numérique ! Je suis
-            <span className="font-bold"> Victor</span>, passionné par les
-            technologies et avide de relever de nouveaux défis.
+            <span className="font-bold text-blue-600"> Victor</span>, passionné
+            par les technologies et avide de relever de nouveaux défis.
           </p>
           <div className="mt-8">
             <div className=" max-w-[400px] h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent mb-8"></div>
@@ -31,7 +31,7 @@ export default function Hero() {
                 <Button
                   variant="link"
                   style={{ textDecoration: "none" }}
-                  className="group text-red-500 font-bold text-lg p-0 transition-all duration-300 hover:text-red-700 hover:scale-105 hover:rotate-2"
+                  className="group text-blue-600 font-bold text-lg p-0 transition-all duration-300 hover:text-blue-700 hover:scale-105 hover:rotate-2 "
                 >
                   mon CV
                   <Download className="opacity-0 group-hover:opacity-100 transition-all duration-300" />
