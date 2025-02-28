@@ -9,8 +9,8 @@ import { MdOutlineMail } from "react-icons/md";
 
 export default function Contact() {
   return (
-    <div className="w-full" id="contact">
-      <div className="mt-36"></div>
+    <div className="w-full pt-10 mt-40" id="contact">
+      {/* <div className="mt-36"></div> */}
       <div className="md:grid md:grid-cols-2 gap-10 flex flex-col items-center  ">
         <div className="flex flex-col h-[400px] lg:h-[500px] gap-8  ">
           <div className="flex flex-col gap-4">

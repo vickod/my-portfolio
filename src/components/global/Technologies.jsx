@@ -23,7 +23,7 @@ import { DiSass } from "react-icons/di";
 
 export default function Technologies() {
   return (
-    <div className="mt-36">
+    <div className="pt-10 mt-40" id="techno">
       <h1 className="text-4xl mb-20 font-bold">Technologies</h1>
       <div className="flex flex-col gap-20">
         <div className="">

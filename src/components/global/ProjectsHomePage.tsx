@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 
 export default function ProjectsHomePage() {
   return (
-    <div className="mt-36">
+    <div className="pt-10 mt-40">
       <h1 className="text-4xl font-bold mb-4">Mes Projets recents</h1>
       <p className="dark:text-zinc-400 md:mb-20 max-md:mb-12">
         Consultez quelques exemples de mes realisations en developpement web!
