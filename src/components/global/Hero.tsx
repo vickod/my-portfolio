@@ -1,14 +1,21 @@
 import React from "react";
 import { Button } from "../ui/button";
 import { Download } from "lucide-react";
+import { DotPatternLinearGradient } from "./bg/DotPatternLinearGradient";
+import { GridPatternDashed } from "./bg/GridPatternDashed";
+import { GridPatternLinearGradient } from "./bg/GridPatternLinearGradient";
+import { AnimatedGridPatternDemo } from "./bg/AnimatedGridPatternDemo";
 
 export default function Hero() {
   return (
     <div className="w-full  mx-auto mt-20 ">
+      {/* <GridPatternDashed /> */}
+      {/* <GridPatternLinearGradient /> */}
       <div className=" flex flex-col gap-5 dark:text-zinc-300">
-        <h1 className=" text-4xl sm:text-5xl font-bold">
-          Développeur Web Fullstack
+        <h1 className=" text-4xl sm:text-5xl font-bold ">
+          Développeur Web Fullstack{" "}
         </h1>
+
         <div className=" text-lg flex flex-col gap-8 md:w-[600px] mt-8">
           <p>
             👋😊 Bienvenue dans mon univers numérique ! Je suis
@@ -27,6 +34,7 @@ export default function Hero() {
                 Disponible pour des missions
                 <span className="font-semibold"> freelance</span>
               </span>
+
               <span className="">
                 <Button
                   variant="link"

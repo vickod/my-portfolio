@@ -33,25 +33,28 @@ export function Navbar() {
             <div className="flex flex-col justify-center items-center gap-8 text-3xl text-white">
               <Link
                 href="#about"
-                className=" font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+                className=" font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
+                onClick={() => setIsOpen(false)}
               >
                 A prepos
               </Link>
               <Link
-                href="/projects"
-                className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+                href="#projects"
+                className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
+                onClick={() => setIsOpen(false)}
               >
                 Projets
               </Link>
               <Link
-                href="/stack"
-                className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+                href="#techno"
+                className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
+                onClick={() => setIsOpen(false)}
               >
                 Stack
               </Link>
               <Link
                 href="#contact"
-                className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+                className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
                 onClick={() => setIsOpen(false)}
               >
                 Contact
@@ -76,25 +79,25 @@ export function Navbar() {
           <div className="gap-6 hidden sm:flex px-5 py-1 dark:text-stone-300">
             <Link
               href="#about"
-              className=" font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+              className=" font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
             >
               A prepos
             </Link>
             <Link
               href="#projects"
-              className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+              className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
             >
               Projets
             </Link>
             <Link
-              href="#stack"
-              className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+              href="#techno"
+              className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
             >
               Stack
             </Link>
             <Link
               href="#contact"
-              className="font-semibold transition-all duration-300 hover:text-red-500 hover:scale-110"
+              className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
             >
               Contact
             </Link>

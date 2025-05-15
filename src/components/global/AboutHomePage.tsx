@@ -12,7 +12,6 @@ export default function AboutHomePage() {
     <div id="about" className="pt-10 mt-40 w-full">
       <h1 className="text-4xl font-bold mb-2">A prepos</h1>
       <p className="mb-8 font-semibold">Decouvrez quelques details sur moi.</p>
-
       <div className=" flex flex-col-reverse lg:grid lg:grid-cols-2 lg:grid-rows-1 gap-8 w-full ">
         <div className="  rounded-xl flex flex-col sm:grid sm:grid-cols-2 sm:grid-rows-2 gap-4">
           <div className="flex flex-col justify-center items-center gap-2 p-2 bg-zinc-100 dark:bg-zinc-900 dark:border-none rounded-xl">
