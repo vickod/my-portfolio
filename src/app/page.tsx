@@ -11,9 +11,9 @@ export default function Home() {
     <div className="w-full">
       <SkillsEffect />
       <Hero />
-      {/* <AboutHomePage /> */}
+      <AboutHomePage />
       {/* <Services /> */}
-      {/* <Technologies /> */}
+      <Technologies />
       <ProjectsHomePage />
 
       <Contact />

@@ -11,14 +11,15 @@ export default function Hero() {
     <div className="w-full  mx-auto mt-20 ">
       {/* <GridPatternDashed /> */}
       {/* <GridPatternLinearGradient /> */}
-      <div className=" flex flex-col gap-5 dark:text-zinc-300">
+      <div className=" flex flex-col gap-5 dark:text-zinc-300 text-zinc-800">
         <h1 className=" text-4xl sm:text-5xl font-bold ">
           Développeur Web Fullstack{" "}
         </h1>
 
-        <div className=" text-lg flex flex-col gap-8 md:w-[600px] mt-8">
+        <div className=" text-lg flex flex-col gap-8 md:w-[600px] mt-8 text-zinc-700 dark:text-zinc-300">
           <p>
-            👋😊 Bienvenue dans mon univers numérique ! Je suis
+            <span className="text-4xl max-sm:text-xl">👋</span> Bienvenue dans
+            mon univers numérique ! Je suis
             <span className="font-bold text-blue-600"> Victor</span>, passionné
             par les technologies et avide de relever de nouveaux défis.
           </p>
@@ -35,7 +36,7 @@ export default function Hero() {
                 <span className="font-semibold"> freelance</span>
               </span>
 
-              <span className="">
+              {/* <span className="">
                 <Button
                   variant="link"
                   style={{ textDecoration: "none" }}
@@ -44,7 +45,7 @@ export default function Hero() {
                   mon CV
                   <Download className="opacity-0 group-hover:opacity-100 transition-all duration-300" />
                 </Button>
-              </span>
+              </span> */}
             </p>
           </div>
         </div>

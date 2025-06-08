@@ -4,13 +4,13 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className=" bg-slate-600 dark:bg-zinc-800 pt-8 pb-6">
+    <footer className=" bg-gray-500 dark:bg-gray-900 pt-10 mt-40 pb-6 ">
       <div className="w-11/12 xl:w-10/12 2xl:w-8/12 mx-auto">
-        <div className="flex sm:flex-col  justify-center sm:items-center sm:gap-8 max-sm:justify-between max-sm:px-2 ">
+        <div className="flex   sm:justify-between sm:items-start sm:gap-8 max-sm:justify-between max-sm:px-2 ">
           <div className="flex sm:gap-10 max-sm:gap-6 max-sm:flex-col  ">
             <Link
-              href="about"
-              className="flex gap-1 group text-zinc-300 hover:text-white"
+              href="#about"
+              className="flex gap-1 group text-zinc-200 dark:text-zinc-300 "
             >
               A prepos
               <ArrowUpRight
@@ -19,8 +19,8 @@ export default function Footer() {
               />
             </Link>
             <Link
-              href="about"
-              className="flex gap-1 group text-zinc-300 hover:text-white"
+              href="#projects"
+              className="flex gap-1 group text-zinc-200 dark:text-zinc-300 "
             >
               Projets
               <ArrowUpRight
@@ -29,8 +29,8 @@ export default function Footer() {
               />
             </Link>
             <Link
-              href="about"
-              className="flex gap-1 group text-zinc-300 hover:text-white"
+              href="#techno"
+              className="flex gap-1 group text-zinc-200 dark:text-zinc-300 "
             >
               stack
               <ArrowUpRight
@@ -39,8 +39,8 @@ export default function Footer() {
               />
             </Link>
             <Link
-              href="about"
-              className="flex gap-1 group text-zinc-300 hover:text-white"
+              href="#contact"
+              className="flex gap-1 group text-zinc-200 dark:text-zinc-300 "
             >
               Contact
               <ArrowUpRight
@@ -50,21 +50,21 @@ export default function Footer() {
             </Link>
           </div>
           <div className=" flex gap-8 ">
-            <Link href="">
+            <Link href="https://github.com/vickod">
               <FaGithub
                 size="26"
-                className="transition-all hover:scale-125 text-zinc-300 hover:text-white "
+                className="transition-all hover:scale-125 text-zinc-200 dark:text-zinc-300 hover:text-white "
               />
             </Link>
-            <Link href="">
+            <Link href="https://be.linkedin.com/in/victor-odin-dev">
               <FaLinkedin
                 size="26"
-                className="transition-all hover:scale-125 text-zinc-300 hover:text-white"
+                className="transition-all hover:scale-125 text-zinc-200 dark:text-zinc-300 hover:text-white"
               />
             </Link>
           </div>
         </div>
-        <div className="mt-14 text-center text-sm  text-muted-foreground">
+        <div className="mt-14  text-sm  text-black dark:text-zinc-700">
           <h1>© Vickod 2025. Tous droits reservés.</h1>
         </div>
       </div>

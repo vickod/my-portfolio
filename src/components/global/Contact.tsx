@@ -6,6 +6,7 @@ import { Button } from "../ui/button";
 import { GiPositionMarker } from "react-icons/gi";
 import { IoEarth } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
+import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -14,47 +15,55 @@ export default function Contact() {
       <div className="md:grid md:grid-cols-2 gap-10 flex flex-col items-center  ">
         <div className="flex flex-col h-[400px] lg:h-[500px] gap-8  ">
           <div className="flex flex-col gap-4">
-            <h1 className="text-4xl font-bold">Gardons Contacte</h1>
-            <p className="dark:text-zinc-300">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam
-              dicta consequatur, exercitationem, ut error architecto autem
+            <h1 className="text-4xl font-bold dark:text-zinc-300 text-zinc-800">
+              Gardons Contacte
+            </h1>
+            <p className="text-zinc-700 dark:text-zinc-300">
+              Une question, une opportunité ou simplement envie d’échanger ?
+              N’hésite pas à me contacter. Je suis toujours ouvert aux
+              collaborations, projets ou discussions autour du développement et
+              de la tech.
             </p>
           </div>
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-8 text-zinc-700 dark:text-zinc-300">
             <div className="flex items-start gap-4 ">
               <GiPositionMarker
                 size=""
-                className="rounded-full  size-11 p-3 bg-zinc-200 text-black"
+                className="rounded-full  size-11 p-3 bg-gray-200 dark:bg-gray-800 "
               />
               <div className="flex-flex-col">
                 <p className="font-semibold">Localisation:</p>
-                <p className="dark:text-zinc-300">Belgique</p>
+                <p className="dark:text-zinc-400 text-zinc-600">Belgique</p>
               </div>
             </div>
             <div className="flex items-center gap-4 ">
               <IoEarth
                 size=""
-                className="rounded-full  size-11 p-3 bg-zinc-200 text-black"
+                className="rounded-full  size-11 p-3 bg-gray-200 dark:bg-gray-800 "
               />
               <div className="flex-flex-col">
                 <p className="font-semibold">Langues:</p>
-                <p className="dark:text-zinc-300">Francais, English, Русский</p>
+                <p className="dark:text-zinc-400 text-zinc-600 ">
+                  Francais, English, Русский
+                </p>
               </div>
             </div>
             <div className="flex items-center gap-4">
               <MdOutlineMail
                 size=""
-                className="rounded-full size-11 p-3 bg-zinc-200 text-black"
+                className="rounded-full size-11 p-3 bg-gray-200 dark:bg-gray-800 "
               />
               <div className="flex-flex-col">
                 <p className="font-semibold">Email:</p>
-                <p className="dark:text-zinc-300">test@mail.com</p>
+                <p className=" dark:text-zinc-400 text-zinc-600">
+                  <Link href="">test@outlook.com</Link>
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="w-full max-md:h-[500px] h-[400px] lg:h-[500px] flex lg:justify-end justify-start ">
+        {/* <div className="w-full max-md:h-[500px] h-[400px] lg:h-[500px] flex lg:justify-end justify-start ">
           <form
             action=""
             className="flex flex-col gap-4 justify-between h-full w-full "
@@ -63,15 +72,15 @@ export default function Contact() {
               <CardContent className="h-full">
                 <div className="flex flex-col gap-4 h-full justify-between">
                   <div>
-                    {/* <Label>Nom</Label> */}
+                  
                     <Input placeholder="Nom" className="dark:bg-zinc-900" />
                   </div>
                   <div>
-                    {/* <Label>Email</Label> */}
+                  
                     <Input placeholder="Email" className="dark:bg-zinc-900" />
                   </div>
                   <div>
-                    {/* <Label>Message</Label> */}
+                 
                     <Textarea
                       placeholder="Message"
                       className="max-md:h-48 h-32 lg:h-48 resize-none dark:bg-zinc-900"
@@ -82,9 +91,9 @@ export default function Contact() {
               </CardContent>
             </Card>
           </form>
-        </div>
+        </div> */}
       </div>
-      <div className="h-20"></div>
+      {/* <div className="h-20"></div> */}
     </div>
   );
 }

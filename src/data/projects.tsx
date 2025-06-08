@@ -8,15 +8,21 @@ export const projects = [
     description:
       "Application web open-source développée avec Next.js, permettant aux utilisateurs de créer facilement des factures personnalisées. L’interface intuitive offre la possibilité d’imprimer ou de télécharger les factures au format PDF",
     stack: ["Next JS", "React JS", "TypeScript JS", "Tailwind css"],
-    links: { site: "/", repo: "/" },
+    links: {
+      site: "https://frinvoice.vercel.app/",
+      repo: "https://github.com/vickod/frinvoice",
+    },
   },
   {
     id: 2,
     image: img2,
     title: "Vbijouterie",
     description:
-      "Application web open-source développée avec Next.js, permettant aux utilisateurs de créer facilement des factures personnalisées. L’interface intuitive offre la possibilité d’imprimer ou de télécharger les factures au format PDF",
+      "Développement fullstack d’une plateforme e-commerce dédiée à la vente de bijoux. Le site intègre de nombreuses fonctionnalités tel que le filtrage des articles, gestion des produits et des utilisateurs, système sécurisé (JWT, hashage...), intégration de paiement, réductions, et plus encore.",
     stack: ["React JS", "EXPRESS", "MySQL", "Bootstrap"],
-    links: { site: "", repo: "/" },
+    links: {
+      site: "",
+      repo: "https://github.com/vickod/tfe-bijouterie-app-react",
+    },
   },
 ];

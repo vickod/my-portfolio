@@ -6,19 +6,27 @@ import { Badge } from "@/components/ui/badge";
 import { ExternalLink } from "lucide-react";
 import Link from "next/link";
 import { projects } from "@/data/projects";
+import { FaEye } from "react-icons/fa";
+import { LiaEye } from "react-icons/lia";
+import { IoEyeOutline } from "react-icons/io5";
+import { FaGit } from "react-icons/fa";
+import { IoIosGitBranch } from "react-icons/io";
+import { FiGithub } from "react-icons/fi";
 
 export default function ProjectsHomePage() {
   return (
     <div className="pt-10 mt-40" id="projects">
-      <h1 className="text-4xl font-bold mb-4">Mes Projets recents</h1>
-      <p className="dark:text-zinc-400 md:mb-20 max-md:mb-12">
+      <h1 className="text-4xl font-bold mb-4 dark:text-zinc-300 text-zinc-800">
+        Mes Projets recents
+      </h1>
+      <p className="text-zinc-700 dark:text-zinc-300 md:mb-20 max-md:mb-12 ">
         Consultez quelques exemples de mes realisations en developpement web!
       </p>
 
       <div className="md:grid md:grid-cols-3 max-md:flex max-md:flex-col md:gap-8 max-md:gap-6 ">
         {projects.map((project) => (
           <div key={project.id}>
-            <div className="relative overflow-hidden w-full h-fit  group border">
+            <div className="relative overflow-hidden w-full h-fit  group  border">
               <Image
                 src={project.image}
                 alt=""
@@ -37,12 +45,13 @@ export default function ProjectsHomePage() {
                 {project.links?.site && (
                   <span className="size-fit ">
                     <Link
-                      href="#"
+                      target="_blank"
+                      href={project.links.site}
                       className="text-zinc-200 hover:text-white text-lg font-semibold  flex gap-1"
                     >
                       <p className="text-sm flex gap-2 items-center">
                         {" "}
-                        Visiter le site <ExternalLink className="size-4" />
+                        <IoEyeOutline className="size-8" />
                       </p>
                     </Link>
                   </span>
@@ -54,12 +63,13 @@ export default function ProjectsHomePage() {
                 {project.links?.repo && (
                   <span className="size-fit ">
                     <Link
-                      href="#"
+                      target="_blank"
+                      href={project.links.repo}
                       className="text-zinc-200 hover:text-white text-lg font-semibold  flex gap-1"
                     >
                       <p className="text-sm flex gap-2 items-center">
                         {" "}
-                        Visiter le depot <ExternalLink className="size-4" />
+                        <IoIosGitBranch className="size-8" />
                       </p>
                     </Link>
                   </span>
@@ -68,11 +78,13 @@ export default function ProjectsHomePage() {
             </div>
 
             <div className="flex flex-col gap-4 mt-8">
-              <h1 className="text-2xl font-semibold dark:text-zinc-300">
+              <h1 className="text-2xl font-semibold text-zinc-700 dark:text-zinc-300">
                 {project.title}
               </h1>
-              <p className="dark:text-zinc-400">{project.description}</p>
-              <div className=" flex flex-wrap dark:text-zinc-400 gap-4 mb-8">
+              <p className="dark:text-zinc-400 text-zinc-600">
+                {project.description}
+              </p>
+              <div className=" flex flex-wrap text-zinc-700 dark:text-zinc-300 gap-4 mb-8">
                 {project.stack.map((techno, index) => (
                   <Badge key={index} variant="outline" className="py-4 px-6">
                     {techno}

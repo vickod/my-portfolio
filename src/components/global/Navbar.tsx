@@ -17,7 +17,7 @@ export function Navbar() {
       <div
         className={
           isOpen
-            ? "w-full h-[80%] transition-transform ease-in-out transform translate-y-0 duration-500 bg-black absolute z-50 "
+            ? "w-full h-[80%] transition-transform ease-in-out transform translate-y-0 duration-500 dark:bg-gray-900 bg-gray-500 shadow-2xl absolute z-50 "
             : "w-full h-[-80%] transition-all absolute -translate-y-full"
         }
       >
