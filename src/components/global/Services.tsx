@@ -1,16 +1,19 @@
-import { Code } from "lucide-react";
-import React from "react";
+// import { Code } from "lucide-react";
+// import React from "react";
 
-export default function Services() {
-  return (
-    <div className="mt-36">
-      <h1 className="text-4xl font-bold mb-2">Mes Services</h1>
-      <p className="mb-20">
-        decouvrez mes services autant que developpeur fullstack
-      </p>
-      {/* <div className=" max-w-[400px] h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent mb-8"></div> */}
+// export default function Services() {
+//   return (
+//     <div className="mt-36">
+//       <h1 className="text-4xl font-bold mb-2">Mes Services</h1>
+//       <p className="mb-20">
+//         decouvrez mes services autant que developpeur fullstack
+//       </p>
+{
+  /* <div className=" max-w-[400px] h-[1px] bg-gradient-to-r from-transparent via-purple-500 to-transparent mb-8"></div> */
+}
 
-      <div className="grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3   ">
+{
+  /* <div className="grid grid-cols-1 grid-rows-6 md:grid-cols-2 md:grid-rows-3   ">
         <div className=" text-5xl font-bold flex justify-center items-center">
           {"<>"}
         </div>
@@ -74,4 +77,5 @@ export default function Services() {
       </div>
     </div>
   );
+} */
 }

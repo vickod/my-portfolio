@@ -3,7 +3,7 @@ import SkillsEffect from "@/components/global/bg/SkillsEffect";
 import Contact from "@/components/global/Contact";
 import Hero from "@/components/global/Hero";
 import ProjectsHomePage from "@/components/global/ProjectsHomePage";
-import Services from "@/components/global/Services";
+// import Services from "@/components/global/Services";
 import Technologies from "@/components/global/Technologies";
 
 export default function Home() {

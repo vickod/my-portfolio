@@ -1,10 +1,7 @@
-import Image from "next/image";
-import React from "react";
-import ImgProfile2 from "../../../public/me.jpeg";
 import { PiCertificate } from "react-icons/pi";
 import { MdOutlineWorkOutline } from "react-icons/md";
-import { BsCamera, BsPersonWorkspace } from "react-icons/bs";
-import { CiCamera } from "react-icons/ci";
+// import { BsCamera, BsPersonWorkspace } from "react-icons/bs";
+// import { CiCamera } from "react-icons/ci";
 import { IoCodeWorking } from "react-icons/io5";
 
 export default function AboutHomePage() {

@@ -1,5 +1,5 @@
-import img1 from "../../public/p4.png";
-import img2 from "../../public/p5.png";
+import img1 from "../../public/project1.png";
+import img2 from "../../public/project2.png";
 export const projects = [
   {
     id: 1,

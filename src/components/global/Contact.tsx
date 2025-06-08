@@ -1,12 +1,11 @@
-import { Card, CardContent } from "@/components/ui/card";
-import { Label } from "../ui/label";
-import { Input } from "../ui/input";
-import { Textarea } from "../ui/textarea";
-import { Button } from "../ui/button";
+// import { Card, CardContent } from "@/components/ui/card";
+// import { Label } from "../ui/label";
+// import { Input } from "../ui/input";
+// import { Textarea } from "../ui/textarea";
+// import { Button } from "../ui/button";
 import { GiPositionMarker } from "react-icons/gi";
 import { IoEarth } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
-import Link from "next/link";
 
 export default function Contact() {
   return (
@@ -56,7 +55,13 @@ export default function Contact() {
               <div className="flex-flex-col">
                 <p className="font-semibold">Email:</p>
                 <p className=" dark:text-zinc-400 text-zinc-600">
-                  <Link href="">test@outlook.com</Link>
+                  <a
+                    href="mailto:vizoun@outlook.com"
+                    title="Envoyer email"
+                    className="hover:underline"
+                  >
+                    vizoun@outlook.com
+                  </a>
                 </p>
               </div>
             </div>

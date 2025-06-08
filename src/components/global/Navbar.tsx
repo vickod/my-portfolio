@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import LogoImg from "../../../public/p3.png";
+import LogoImg from "../../../public/logo.png";
 import { Button } from "../ui/button";
 import Link from "next/link";
 import { ModeToggle } from "../modeToggle";
@@ -70,7 +70,7 @@ export function Navbar() {
             <Link href="/">
               <Image
                 src={LogoImg}
-                alt=""
+                alt="logo"
                 className="size-16 rounded-full object-"
                 priority
               />

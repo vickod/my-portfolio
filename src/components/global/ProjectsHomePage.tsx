@@ -1,17 +1,15 @@
 "use client";
 import Image from "next/image";
-import Proj1 from "../../../public/p4.png";
-import Proj2 from "../../../public/p5.png";
 import { Badge } from "@/components/ui/badge";
-import { ExternalLink } from "lucide-react";
-import Link from "next/link";
+// import { ExternalLink } from "lucide-react";
+// import Link from "next/link";
 import { projects } from "@/data/projects";
-import { FaEye } from "react-icons/fa";
-import { LiaEye } from "react-icons/lia";
+// import { FaEye } from "react-icons/fa";
+// import { LiaEye } from "react-icons/lia";
 import { IoEyeOutline } from "react-icons/io5";
-import { FaGit } from "react-icons/fa";
+// import { FaGit } from "react-icons/fa";
 import { IoIosGitBranch } from "react-icons/io";
-import { FiGithub } from "react-icons/fi";
+// import { FiGithub } from "react-icons/fi";
 
 export default function ProjectsHomePage() {
   return (
@@ -29,7 +27,7 @@ export default function ProjectsHomePage() {
             <div className="relative overflow-hidden w-full h-fit  group  border">
               <Image
                 src={project.image}
-                alt=""
+                alt="project-img"
                 className=" w-full object-cover transform transition-transform duration-500 ease-in-out 
                hover:scale-110  h-[200px]"
               />
@@ -44,8 +42,9 @@ export default function ProjectsHomePage() {
               >
                 {project.links?.site && (
                   <span className="size-fit ">
-                    <Link
+                    <a
                       target="_blank"
+                      title="Vers le site"
                       href={project.links.site}
                       className="text-zinc-200 hover:text-white text-lg font-semibold  flex gap-1"
                     >
@@ -53,7 +52,7 @@ export default function ProjectsHomePage() {
                         {" "}
                         <IoEyeOutline className="size-8" />
                       </p>
-                    </Link>
+                    </a>
                   </span>
                 )}
 
@@ -62,8 +61,9 @@ export default function ProjectsHomePage() {
                 )}
                 {project.links?.repo && (
                   <span className="size-fit ">
-                    <Link
+                    <a
                       target="_blank"
+                      title="Vers le dépot"
                       href={project.links.repo}
                       className="text-zinc-200 hover:text-white text-lg font-semibold  flex gap-1"
                     >
@@ -71,7 +71,7 @@ export default function ProjectsHomePage() {
                         {" "}
                         <IoIosGitBranch className="size-8" />
                       </p>
-                    </Link>
+                    </a>
                   </span>
                 )}
               </div>

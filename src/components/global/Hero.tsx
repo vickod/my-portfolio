@@ -1,10 +1,10 @@
 import React from "react";
-import { Button } from "../ui/button";
-import { Download } from "lucide-react";
-import { DotPatternLinearGradient } from "./bg/DotPatternLinearGradient";
-import { GridPatternDashed } from "./bg/GridPatternDashed";
-import { GridPatternLinearGradient } from "./bg/GridPatternLinearGradient";
-import { AnimatedGridPatternDemo } from "./bg/AnimatedGridPatternDemo";
+// import { Button } from "../ui/button";
+// import { Download } from "lucide-react";
+// import { DotPatternLinearGradient } from "./bg/DotPatternLinearGradient";
+// import { GridPatternDashed } from "./bg/GridPatternDashed";
+// import { GridPatternLinearGradient } from "./bg/GridPatternLinearGradient";
+// import { AnimatedGridPatternDemo } from "./bg/AnimatedGridPatternDemo";
 
 export default function Hero() {
   return (

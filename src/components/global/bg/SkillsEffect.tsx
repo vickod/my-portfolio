@@ -1,5 +1,5 @@
 import { FaReact } from "react-icons/fa";
-import { RiReactjsLine } from "react-icons/ri";
+// import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { TbBrandTypescript } from "react-icons/tb";
 import { FaNodeJs } from "react-icons/fa";

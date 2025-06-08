@@ -50,13 +50,16 @@ export default function Footer() {
             </Link>
           </div>
           <div className=" flex gap-8 ">
-            <Link href="https://github.com/vickod">
+            <Link href="https://github.com/vickod" target="_blank">
               <FaGithub
                 size="26"
                 className="transition-all hover:scale-125 text-zinc-200 dark:text-zinc-300 hover:text-white "
               />
             </Link>
-            <Link href="https://be.linkedin.com/in/victor-odin-dev">
+            <Link
+              href="https://be.linkedin.com/in/victor-odin-dev"
+              target="_blank"
+            >
               <FaLinkedin
                 size="26"
                 className="transition-all hover:scale-125 text-zinc-200 dark:text-zinc-300 hover:text-white"
