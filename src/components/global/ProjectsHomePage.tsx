@@ -15,10 +15,10 @@ export default function ProjectsHomePage() {
   return (
     <div className="pt-10 mt-40" id="projects">
       <h1 className="text-4xl font-bold mb-4 dark:text-zinc-300 text-zinc-800">
-        Mes Projets recents
+        Mes Projets Récents
       </h1>
       <p className="text-zinc-700 dark:text-zinc-300 md:mb-20 max-md:mb-12 ">
-        Consultez quelques exemples de mes realisations en developpement web!
+        Découvrez quelques exemples de mes réalisations en développement web!
       </p>
 
       <div className="md:grid md:grid-cols-3 max-md:flex max-md:flex-col md:gap-8 max-md:gap-6 ">

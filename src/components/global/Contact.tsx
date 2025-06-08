@@ -15,7 +15,7 @@ export default function Contact() {
         <div className="flex flex-col h-[400px] lg:h-[500px] gap-8  ">
           <div className="flex flex-col gap-4">
             <h1 className="text-4xl font-bold dark:text-zinc-300 text-zinc-800">
-              Gardons Contacte
+              Gardons Contact
             </h1>
             <p className="text-zinc-700 dark:text-zinc-300">
               Une question, une opportunité ou simplement envie d’échanger ?
@@ -43,7 +43,7 @@ export default function Contact() {
               <div className="flex-flex-col">
                 <p className="font-semibold">Langues:</p>
                 <p className="dark:text-zinc-400 text-zinc-600 ">
-                  Francais, English, Русский
+                  Français, English, Русский
                 </p>
               </div>
             </div>

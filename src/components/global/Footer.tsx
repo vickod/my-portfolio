@@ -12,7 +12,7 @@ export default function Footer() {
               href="#about"
               className="flex gap-1 group text-zinc-200 dark:text-zinc-300 "
             >
-              A prepos
+              À prepos
               <ArrowUpRight
                 size="14"
                 className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"
@@ -32,7 +32,7 @@ export default function Footer() {
               href="#techno"
               className="flex gap-1 group text-zinc-200 dark:text-zinc-300 "
             >
-              stack
+              Technologies
               <ArrowUpRight
                 size="14"
                 className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"

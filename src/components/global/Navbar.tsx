@@ -36,7 +36,7 @@ export function Navbar() {
                 className=" font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
                 onClick={() => setIsOpen(false)}
               >
-                A prepos
+                À prepos
               </Link>
               <Link
                 href="#projects"
@@ -50,7 +50,7 @@ export function Navbar() {
                 className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
                 onClick={() => setIsOpen(false)}
               >
-                Stack
+                Technologies
               </Link>
               <Link
                 href="#contact"
@@ -65,13 +65,13 @@ export function Navbar() {
       </div>
 
       <nav className="w-11/12 xl:w-10/12 2xl:w-8/12 mx-auto h-24 flex items-center justify-between">
-        <div className="flex items-center gap-24">
+        <div className="flex items-center gap-16">
           <div>
             <Link href="/">
               <Image
                 src={LogoImg}
                 alt="logo"
-                className="size-16 rounded-full object-"
+                className="size-16 rounded-full "
                 priority
               />
             </Link>
@@ -81,7 +81,7 @@ export function Navbar() {
               href="#about"
               className=" font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
             >
-              A prepos
+              À prepos
             </Link>
             <Link
               href="#projects"
@@ -93,7 +93,7 @@ export function Navbar() {
               href="#techno"
               className="font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
             >
-              Stack
+              Technologies
             </Link>
             <Link
               href="#contact"

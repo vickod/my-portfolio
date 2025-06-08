@@ -32,8 +32,8 @@ export default function Hero() {
 
             <p className="">
               <span className="mr-3">
-                Disponible pour des missions
-                <span className="font-semibold"> freelance</span>
+                Disponible pour des missions en
+                <span className="font-semibold"> freelance</span>.
               </span>
 
               {/* <span className="">
