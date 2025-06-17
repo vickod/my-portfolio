@@ -12,7 +12,7 @@ export default function Footer() {
               href="#about"
               className="flex gap-1 group text-zinc-200 dark:text-zinc-300 "
             >
-              À prepos
+              À propos
               <ArrowUpRight
                 size="14"
                 className="opacity-0 group-hover:opacity-100 transition-opacity duration-300"

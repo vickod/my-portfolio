@@ -8,7 +8,7 @@ export default function AboutHomePage() {
   return (
     <div id="about" className="pt-10 mt-40 w-full">
       <h1 className="text-4xl font-bold mb-2 dark:text-zinc-200 text-zinc-800">
-        À prepos
+        À propos
       </h1>
       <p className="mb-8 font-semibold text-zinc-700 dark:text-zinc-300">
         Découvrez quelques détails sur moi.

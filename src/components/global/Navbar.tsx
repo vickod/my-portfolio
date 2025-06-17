@@ -36,7 +36,7 @@ export function Navbar() {
                 className=" font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
                 onClick={() => setIsOpen(false)}
               >
-                À prepos
+                À propos
               </Link>
               <Link
                 href="#projects"
@@ -81,7 +81,7 @@ export function Navbar() {
               href="#about"
               className=" font-semibold transition-all duration-300 hover:text-blue-600 hover:scale-110"
             >
-              À prepos
+              À propos
             </Link>
             <Link
               href="#projects"
