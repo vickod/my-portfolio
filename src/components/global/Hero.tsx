@@ -30,13 +30,13 @@ export default function Hero() {
               <div className="absolute top-0 left-0 w-full h-full animate-[moveLight_2s_linear_infinite] bg-gradient-to-r from-transparent via-white to-transparent"></div>
             </div> */}
 
-            <p className="">
+            {/* <p className="">
               <span className="mr-3">
                 Disponible pour des missions en
                 <span className="font-semibold"> freelance</span>.
               </span>
 
-              {/* <span className="">
+               <span className="">
                 <Button
                   variant="link"
                   style={{ textDecoration: "none" }}
@@ -45,8 +45,9 @@ export default function Hero() {
                   mon CV
                   <Download className="opacity-0 group-hover:opacity-100 transition-all duration-300" />
                 </Button>
-              </span> */}
+              </span> 
             </p>
+            */}
           </div>
         </div>
       </div>

@@ -3,6 +3,8 @@
 // import { Input } from "../ui/input";
 // import { Textarea } from "../ui/textarea";
 // import { Button } from "../ui/button";
+import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa";
 import { GiPositionMarker } from "react-icons/gi";
 import { IoEarth } from "react-icons/io5";
 import { MdOutlineMail } from "react-icons/md";
@@ -48,19 +50,28 @@ export default function Contact() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <MdOutlineMail
+              {/* <MdOutlineMail
                 size=""
                 className="rounded-full size-11 p-3 bg-gray-200 dark:bg-gray-800 "
-              />
+              /> */}
+              <Link
+                href="https://be.linkedin.com/in/victor-odin-dev"
+                target="_blank"
+              >
+                <FaLinkedin
+                  size="26"
+                  className="rounded-full size-11 p-3 bg-gray-200 dark:bg-gray-800 "
+                />
+              </Link>
               <div className="flex-flex-col">
-                <p className="font-semibold">Email:</p>
+                <p className="font-semibold">Linkedin</p>
                 <p className=" dark:text-zinc-400 text-zinc-600">
                   <a
-                    href="mailto:vizoun@outlook.com"
+                    href="https://www.linkedin.com/in/victor-odin-dev/?originalSubdomain=be"
                     title="Envoyer email"
                     className="hover:underline"
                   >
-                    vizoun@outlook.com
+                    victor-odin-dev
                   </a>
                 </p>
               </div>
